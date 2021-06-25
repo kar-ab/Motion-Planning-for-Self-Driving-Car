@@ -8,7 +8,7 @@ This goal of this project is to design a Motion Planner, which creates trajector
 
 1) Following a global planning provided as waypoints 
 2) Local planning using 
-3) Behavioral Planning to generatendle traffic sign scenario
+3) Behavioral Planning to handle traffic sign scenario
 4) Avoiding a parked vehicle using static collision checking
 5) Velocity profile generation to follow lead vehicle
 
@@ -27,6 +27,7 @@ This goal of this project is to design a Motion Planner, which creates trajector
 
 	`
 	$ cd <path_to_carla_simlator>
+	
 	$ ./CarlaUE4.sh /Game/Maps/RaceTrack -windowed -carla-server -benchmark 
 	`
 2. On another terminal, run client module 
@@ -36,31 +37,25 @@ This goal of this project is to design a Motion Planner, which creates trajector
 
 ## Details
 
-[course4_waypoints.txt](../blob/main/Course4FinalProject/course4_waypoints.txt): 
+[course4_waypoints.txt](../blob/main/Course4FinalProject/course4_waypoints.txt): waypoints to follow
 
-[stop_sign_params.txt](../blob/main/Course4FinalProject/stop_sign_params.txt):
+[stop_sign_params.txt](../blob/main/Course4FinalProject/stop_sign_params.txt): position of stop sign
+
+[parked_vehicle_params.txt](../blob/main/Course4FinalProject/parked_vehicle_params.txt): parked vehicle position
 
 [module_7.py](../blob/master/Course1FinalProject/module_7.py): Carla client to execute vehicle commands
 
-[behavioural_planner.py](../blob/main/Course4FinalProject/behavioural_planner.py): 
+[behavioural_planner.py](../blob/main/Course4FinalProject/behavioural_planner.py): Behavioral Planner to handle traffic sign scenario.
 
-[collision_checker.py](../blob/main/Course4FinalProject/collision_checker.py): 
+[collision_checker.py](../blob/main/Course4FinalProject/collision_checker.py): static collision checking useful for avoiding a parked vehicle in path
 
-[controller2d.py](../blob/main/Course4FinalProject/controller2d.py): 
+[controller2d.py](../blob/main/Course4FinalProject/controller2d.py): Longitudinal and Lateral Control for throttle, break and steering commands
 
-[course4_waypoints.txt](../blob/main/Course4FinalProject/course4_waypoints.txt): 
-
-[local_planner.py](../blob/main/Course4FinalProject/local_planner.py): 
-
-
-[parked_vehicle_params.txt](../blob/main/Course4FinalProject/parked_vehicle_params.txt): 
-
-[path_optimizer.py](../blob/main/Course4FinalProject/path_optimizer.py): 
-
-[velocity_planner.py](../blob/main/Course4FinalProject/velocity_planner.py): 
+[local_planner.py](../blob/main/Course4FinalProject/local_planner.py): Local planning implementation
 
 
 ## Results
+
 
 
 ## Credits: 
