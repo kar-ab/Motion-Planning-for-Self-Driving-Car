@@ -25,14 +25,13 @@ This goal of this project is to design a Motion Planner, which creates trajector
 
 1. Run carla server on terminal using command 
 
-	`
+	```
 	$ cd <path_to_carla_simlator>
-	
 	$ ./CarlaUE4.sh /Game/Maps/RaceTrack -windowed -carla-server -benchmark 
-	`
+	```
 2. On another terminal, run client module 
 
-	`$ python3 /Course4FinalProject/module_7.py`
+	```$ python3 /Course4FinalProject/module_7.py```
 
 ## Results
 
