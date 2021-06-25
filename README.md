@@ -39,8 +39,7 @@ This goal of this project is to design a Motion Planner, which creates trajector
 
 [stop_sign_params.txt](../blob/main/Course4FinalProject/stop_sign_params.txt):
 
-
-[module_7.py ](../blob/main/Course4FinalProject/module_7.py ): main 
+[module_7.py](../blob/master/Course1FinalProject/module_7.py): Carla client to execute vehicle commands
 
 [behavioural_planner.py](../blob/main/Course4FinalProject/behavioural_planner.py): 
 
