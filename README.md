@@ -1,13 +1,16 @@
 # Motion-Planning-for-Self-Driving-Car
 
 
-This project is implementation of final assignment for [Introduction to Self-Driving Cars](https://www.coursera.org/learn/intro-self-driving-cars?specialization=self-driving-cars) on [Coursera- Self Driving Specialization](https://www.coursera.org/specializations/self-driving-cars)
+This project is implementation of final assignment for [Motion PLanning Self Driving Cars](https://www.coursera.org/learn/motion-planning-self-driving-cars) on [Coursera- Self Driving Specialization](https://www.coursera.org/specializations/self-driving-cars)
 
-In this project, Motion Planning of Self Driving Vehicle is performed using Carla Simulator.
 
-This goal of this project is to design a controller, which follows trajectory defined using predefined waypoints (x and y position) and velocity profile (speed at each waypoint) by providing Throttle, Brake and Steering commands to the self driving vehicle.
+This goal of this project is to design a Motion Planner, which creates trajectory to be followed using predefined waypoints (x and y position). The designed MOtion planning to perform following sub-modules: 
 
-As part of control design, longitudinal speed control (i.e. throttle and brake commands) is performed using PID control and Stanley Control is used for lateral steering control.
+1) Following a global planning provided as waypoints 
+2) Local planning using 
+3) Behavioral Planning to generatendle traffic sign scenario
+4) Avoiding a parked vehicle using static collision checking
+5) Velocity profile generation to follow lead vehicle
 
 -----
 
@@ -32,13 +35,29 @@ As part of control design, longitudinal speed control (i.e. throttle and brake c
 
 ## Details
 
-[racetrack_waypoints.txt](../blob/master/Course1FinalProject/racetrack_waypoints.txt): Contains list of x, y position and the respective speed to attain at each waypoint.
+[course4_waypoints.txt](../blob/main/Course4FinalProject/course4_waypoints.txt): 
+[stop_sign_params.txt](../blob/main/Course4FinalProject/stop_sign_params.txt)
 
-[controller2D.py](../blob/master/Course1FinalProject/controller2D.py): Script containing controller design
+[behavioural_planner.py](../blob/main/Course4FinalProject/behavioural_planner.py): 
 
-[controller_output](../blob/master/Course1FinalProject/controller_output): Folder Containing results of trajectory followed by controller
+[collision_checker.py](../blob/main/Course4FinalProject/collision_checker.py): 
 
-[grade_c1m7.py](../blob/master/Course1FinalProject/grade_c1m7.py): Grading script provided by Coursera for evaluation of designed Controller
+[controller2d.py](../blob/main/Course4FinalProject/controller2d.py): 
+
+[course4_waypoints.txt](../blob/main/Course4FinalProject/course4_waypoints.txt): 
+
+[local_planner.py](../blob/main/Course4FinalProject/local_planner.py): 
+
+[module_7.py ](../blob/main/Course4FinalProject/module_7.py ): 
+
+[parked_vehicle_params.txt](../blob/main/Course4FinalProject/parked_vehicle_params.txt): 
+
+[path_optimizer.py](../blob/main/Course4FinalProject/path_optimizer.py): 
+
+[velocity_planner.py](../blob/main/Course4FinalProject/velocity_planner.py): 
+
+
+## Results
 
 
 ## Credits: 
