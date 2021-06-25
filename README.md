@@ -8,9 +8,9 @@ This goal of this project is to design a Motion Planner, which creates trajector
 
 1) Following a global planning provided as waypoints 
 2) Local planning using 
-3) Behavioral Planning to handle traffic sign scenario
+3) Behavioral Planning to handle traffic sign scenario, following lead vehicle
 4) Avoiding a parked vehicle using static collision checking
-5) Velocity profile generation to follow lead vehicle
+5) Velocity profile generation 
 
 -----
 
@@ -34,31 +34,16 @@ This goal of this project is to design a Motion Planner, which creates trajector
 
 	`$ python3 /Course4FinalProject/module_7.py`
 
-
-## Details
-
-[course4_waypoints.txt](../blob/main/Course4FinalProject/course4_waypoints.txt): waypoints to follow
-
-[stop_sign_params.txt](../blob/main/Course4FinalProject/stop_sign_params.txt): position of stop sign
-
-[parked_vehicle_params.txt](../blob/main/Course4FinalProject/parked_vehicle_params.txt): parked vehicle position
-
-[module_7.py](../blob/master/Course1FinalProject/module_7.py): Carla client to execute vehicle commands
-
-[behavioural_planner.py](../blob/main/Course4FinalProject/behavioural_planner.py): Behavioral Planner to handle traffic sign scenario.
-
-[collision_checker.py](../blob/main/Course4FinalProject/collision_checker.py): static collision checking useful for avoiding a parked vehicle in path
-
-[controller2d.py](../blob/main/Course4FinalProject/controller2d.py): Longitudinal and Lateral Control for throttle, break and steering commands
-
-[local_planner.py](../blob/main/Course4FinalProject/local_planner.py): Local planning implementation
-
-
 ## Results
 
 
+<b>Green Line</b> Trajectory defined using waypoints
 
-## Credits: 
+<b>Orange Line</b> Path travelled by vehicle using the designed Motion Planner
+
+![alt_text](https://github.com/kar-ab/Motion-Planning-for-Self-Driving-Car//blob/main/Course4FinalProject/controller_output/trajectory.png?raw=true)
+
+## Credits
 
 University of Toronto
 
