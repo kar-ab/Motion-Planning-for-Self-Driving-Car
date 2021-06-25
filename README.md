@@ -30,13 +30,17 @@ This goal of this project is to design a Motion Planner, which creates trajector
 	`
 2. On another terminal, run client module 
 
-	`$ python3 /Course1FinalProject/module_7.py`
+	`$ python3 /Course4FinalProject/module_7.py`
 
 
 ## Details
 
 [course4_waypoints.txt](../blob/main/Course4FinalProject/course4_waypoints.txt): 
-[stop_sign_params.txt](../blob/main/Course4FinalProject/stop_sign_params.txt)
+
+[stop_sign_params.txt](../blob/main/Course4FinalProject/stop_sign_params.txt):
+
+
+[module_7.py ](../blob/main/Course4FinalProject/module_7.py ): main 
 
 [behavioural_planner.py](../blob/main/Course4FinalProject/behavioural_planner.py): 
 
@@ -48,7 +52,6 @@ This goal of this project is to design a Motion Planner, which creates trajector
 
 [local_planner.py](../blob/main/Course4FinalProject/local_planner.py): 
 
-[module_7.py ](../blob/main/Course4FinalProject/module_7.py ): 
 
 [parked_vehicle_params.txt](../blob/main/Course4FinalProject/parked_vehicle_params.txt): 
 
